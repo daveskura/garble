@@ -3,12 +3,12 @@
 """
 import os
 
-from garble_package.garble import garble 
+from garbledave_package.garbledave import garbledave 
 
 print (" Starting ") # 
 char_string =  input('any string: ')
 
-garbled_str = garble().garbleit(char_string)
+garbled_str = garbledave().garbleit(char_string)
 print(garbled_str)
 
-#print(garble().ungarbleit(garbled_str))
+#print(garbledave().ungarbleit(garbled_str))

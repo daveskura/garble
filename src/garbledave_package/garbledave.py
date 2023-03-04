@@ -6,7 +6,7 @@
 	0=48, 9=57
 """
 
-class garble:
+class garbledave:
 
 	def garbleit(self,prm):
 		newstr = ''
@@ -60,12 +60,12 @@ class garble:
 
 
 if __name__ == '__main__':
-
+	
 	print (" Starting ") # 
 	char_string =  input('any string: ')
 
-	garbled_str = garble().garbleit(char_string)
+	garbled_str = garbledave().garbleit(char_string)
 	print(garbled_str)
 
-	#print(garble().ungarbleit(garbled_str))
+	#print(garbledave().ungarbleit(garbled_str))
 

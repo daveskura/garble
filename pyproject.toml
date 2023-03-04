@@ -4,7 +4,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "garble_package"
+name = "garbledave_package"
 version = "1.0.0"
 authors = [
   { name="Dave Skura", email="dskura@gmail.com" },
